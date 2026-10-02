@@ -1,0 +1,66 @@
+BCA PROJECT DOCUMENTATION
+
+TITLE
+Chess Game Management System
+
+1. INTRODUCTION
+The Chess Game Management System is a web-based application developed using HTML, CSS, JavaScript, PHP and MySQL. It provides a two-player chess environment and stores completed game results.
+
+2. OBJECTIVES
+- Develop an interactive chess application.
+- Understand JavaScript event handling and game logic.
+- Demonstrate PHP and MySQL connectivity.
+- Store and display game history.
+- Develop an attractive user interface.
+
+3. TECHNOLOGIES
+Frontend: HTML, CSS, JavaScript
+Backend: PHP
+Database: MySQL
+Database Tool: HeidiSQL
+Editor: Dreamweaver 8
+Server: XAMPP
+
+4. MODULES
+Home Page
+Chess Game
+Instructions
+Game History
+About Project
+Database
+
+5. DATABASE
+Database: chess_game
+Table: games
+Fields:
+id - INT primary key
+white_player - VARCHAR(100)
+black_player - VARCHAR(100)
+winner - VARCHAR(100)
+result - VARCHAR(50)
+played_at - TIMESTAMP
+
+6. SYSTEM FLOW
+Home -> Enter Players -> Start Game -> Play -> Game End -> Save Result -> Database -> History
+
+7. ADVANTAGES
+- User-friendly interface.
+- PHP-MySQL connectivity.
+- Interactive chessboard.
+- Match history.
+- Suitable for BCA demonstration.
+
+8. LIMITATIONS
+The application is designed as an academic project. It does not provide online multiplayer, authentication or tournament infrastructure.
+
+9. FUTURE ENHANCEMENTS
+- Login and registration
+- Online multiplayer
+- Chess clock
+- Player rankings
+- Admin dashboard
+- Game replay
+- Player statistics
+
+10. CONCLUSION
+The project demonstrates integration of frontend technologies, JavaScript game logic and PHP-MySQL database operations in a practical web application.

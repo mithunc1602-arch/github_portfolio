@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS chess_game;
+USE chess_game;
+
+CREATE TABLE IF NOT EXISTS games (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    white_player VARCHAR(100) NOT NULL,
+    black_player VARCHAR(100) NOT NULL,
+    winner VARCHAR(100) NOT NULL,
+    result VARCHAR(50) NOT NULL,
+    played_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
