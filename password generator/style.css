@@ -1,0 +1,38 @@
+* { box-sizing: border-box; }
+body {
+    margin: 0; padding: 24px; font-family: Arial, sans-serif;
+    background: #f2f5f9; color: #263238;
+}
+.container {
+    width: min(100%, 540px); margin: 35px auto; background: #fff;
+    padding: 28px; border-radius: 12px; box-shadow: 0 5px 22px #00000016;
+    text-align: center;
+}
+h1 { color: #253858; margin-top: 0; }
+.subtitle { color: #667085; margin-bottom: 24px; }
+label { display: block; text-align: left; margin: 14px 0; font-weight: 600; }
+input[type="number"], .generated {
+    width: 100%; padding: 12px; border: 1px solid #cbd5e1;
+    border-radius: 6px; margin-top: 8px; font-size: 16px;
+}
+.checkbox { margin: 18px 0; }
+.checkbox label { font-weight: normal; margin: 10px 0; }
+.checkbox input { margin-right: 8px; }
+button {
+    margin: 10px 4px; padding: 12px 18px; border: 0; border-radius: 6px;
+    background: #2563eb; color: white; cursor: pointer; font-size: 15px;
+}
+button:hover { background: #1d4ed8; }
+a { color: #2563eb; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.history-container { width: min(100%, 1000px); }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { border: 1px solid #d7dee8; padding: 10px; font-size: 13px; }
+th { background: #253858; color: white; }
+td { background: #fbfcfe; }
+.password-cell { overflow-wrap: anywhere; }
+.delete { color: #c62828; }
+.error { color: #c62828; }
+.success { color: #16803c; }
+@media (max-width: 600px) { body { padding: 10px; } .container { padding: 18px; margin: 12px auto; } }

@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS password_generator
+  CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE password_generator;
+
+CREATE TABLE IF NOT EXISTS passwords (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    password_text VARCHAR(255) NOT NULL,
+    password_length INT UNSIGNED NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
