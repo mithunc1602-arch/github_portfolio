@@ -1,0 +1,16 @@
+SIMPLE HEIDISQL TABLES
+
+users
+id | username | password
+
+members
+id | name | phone | gender | join_date | plan
+
+trainers
+id | name | phone | specialization
+
+attendance
+id | member_id | date | status
+
+payments
+id | member_id | amount | date
